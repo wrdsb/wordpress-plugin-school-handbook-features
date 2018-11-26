@@ -1,0 +1,18 @@
+{
+    "name": "wrdsb/school-handbook-features",
+    "description": "An omnibus plugin to provide features unique to School Handbooks in the Staff Intranet.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "WRDSB",
+            "email": "website@wrdsb.ca"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"WRDSB\\SchoolHandbooks\\": "src/"}
+    },
+    "require": {
+        "pimple/pimple": "^3.2"
+    }
+}
